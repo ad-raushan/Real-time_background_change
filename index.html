@@ -6,18 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Bg-color Changer</title>
-    <style>
-        body{
-            transition: background-color 0.5s;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: "lato",sans-serif;
-        }
-        #centered-div{
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -32,10 +22,4 @@
     </div>
 
 </body>
-<script>
-    function ColorChange(){
-        var colorName = document.getElementById("colorInput").value;
-        document.body.style.backgroundColor = colorName;
-    }
-</script>
 </html>

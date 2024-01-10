@@ -1,0 +1,10 @@
+body{
+    transition: background-color 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "lato",sans-serif;
+}
+#centered-div{
+    text-align: center;
+}
